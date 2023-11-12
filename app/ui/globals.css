@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.note-card {
+    @apply overflow-hidden hover:overflow-y-auto w-80 h-80 bg-blue-200 p-4 my-4 mx-6 rounded-md
+}
